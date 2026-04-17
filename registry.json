@@ -7,7 +7,7 @@
       "id": "image_converter",
       "name": "Image Converter",
       "author": "NeosCodes",
-      "version": "1.0.0",
+      "version": "1.1",
       "description": "Convert between PNG, JPEG, WebP, BMP and TIFF. Supports batch resize, quality control and EXIF preservation.",
       "category": "Images",
       "icon_char": "🖼",
@@ -16,19 +16,20 @@
       "official": true,
       "requires": ["Pillow>=10.0.0"],
       "download_url": "https://github.com/NeosCodes/ToolBox-plugins/releases/download/image_converter-1.0.0/image_converter.zip",
-      "checksum_sha256": "3df841e79a5aef42147e3e6cbfaf79f8c03e4c795f1dc6ea3db1e5f2741bf7c7",
-      "size_bytes": 251,
+      "checksum_sha256": "388fa2b6128f1b2ca723ee5b4e43521ce9746b0fb191a01c2b06e8bebe12da36",
+      "size_bytes": 2108,
       "rating_avg": 0,
       "rating_count": 0,
       "changelog": {
-        "1.0.0": "Initial release"
+        "1.0.0": "Initial release",
+        "1.1": "fixed error"
       }
     },
     {
       "id": "video_converter",
       "name": "Video Converter",
       "author": "NeosCodes",
-      "version": "1.0.0",
+      "version": "1.1",
       "description": "Convert MP4, MKV, AVI, MOV and WebM using ffmpeg. Control codec, CRF quality and audio stripping.",
       "category": "Video",
       "icon_char": "▶",
@@ -37,19 +38,20 @@
       "official": true,
       "requires": ["ffmpeg (system install)"],
       "download_url": "https://github.com/NeosCodes/ToolBox-plugins/releases/download/video_converter-1.0.0/video_converter.zip",
-      "checksum_sha256": "cdb005777ac955a57d0c4b589642cfc38c8cb46a173009f61237b9deb568d02a",
-      "size_bytes": 250,
+      "checksum_sha256": "2558ef4bcff397eade592cf2db80d1324aff43b8767e77646e4e8eda59b7d251",
+      "size_bytes": 1889,
       "rating_avg": 0,
       "rating_count": 0,
       "changelog": {
-        "1.0.0": "Initial release"
+        "1.0.0": "Initial release",
+        "1.1": "fixed error"
       }
     },
     {
       "id": "pdf_tools",
       "name": "PDF Tools",
       "author": "NeosCodes",
-      "version": "1.0.0",
+      "version": "1.1",
       "description": "Merge multiple PDFs, split by page count, or extract specific page ranges.",
       "category": "PDF",
       "icon_char": "📄",
@@ -58,19 +60,20 @@
       "official": true,
       "requires": ["pypdf>=4.0.0"],
       "download_url": "https://github.com/NeosCodes/ToolBox-plugins/releases/download/pdf_tools-1.0.0/pdf_tools.zip",
-      "checksum_sha256": "9915b0e72f81789cc5a0274fbf2a53018cf9f28f852d2a83851476d2c3a03912",
-      "size_bytes": 235,
+      "checksum_sha256": "650fec8e8c715ce86fe3b80f17a678f8f31aa22e747dbd315a6f743bf43db6b9",
+      "size_bytes": 2227,
       "rating_avg": 0,
       "rating_count": 0,
       "changelog": {
-        "1.0.0": "Initial release"
+        "1.0.0": "Initial release",
+        "1.1": "fixed error"
       }
     },
     {
       "id": "doc_converter",
       "name": "Doc Converter",
       "author": "NeosCodes",
-      "version": "1.0.0",
+      "version": "1.1",
       "description": "Convert DOCX to TXT/HTML, XLSX to CSV/JSON, and Markdown to HTML.",
       "category": "Documents",
       "icon_char": "📝",
@@ -79,12 +82,13 @@
       "official": true,
       "requires": ["python-docx>=1.1.0", "openpyxl>=3.1.0", "Markdown>=3.5.0"],
       "download_url": "https://github.com/NeosCodes/ToolBox-plugins/releases/download/doc_converter-1.0.0/doc_converter.zip",
-      "checksum_sha256": "6a5e0080ff63e239ab1738deddb6b901cc2919df70516b9fdcc4310db99c3deb",
-      "size_bytes": 246,
+      "checksum_sha256": "a560cb52cd3ea03c1eda64ee0338fb52ca4a1c129e1b9ddcc1c18cbaa001b7a6",
+      "size_bytes": 2250,
       "rating_avg": 0,
       "rating_count": 0,
       "changelog": {
-        "1.0.0": "Initial release"
+        "1.0.0": "Initial release",
+        "1.1": "fixed error"
       }
     },
     {
@@ -100,12 +104,13 @@
       "official": true,
       "requires": ["ffmpeg (system install)"],
       "download_url": "https://github.com/NeosCodes/ToolBox-plugins/releases/download/audio_converter-1.0.0/audio_converter.zip",
-      "checksum_sha256": "111914979b49d59c0274ef6381b2aa9d48c1252ec15f43071f016116d6e4038b",
-      "size_bytes": 251,
+      "checksum_sha256": "fc75e175c1cbd2ea2190a6e4b7cdc5b9144568bc2a990fa5ac63d8b06ee85302",
+      "size_bytes": 1902,
       "rating_avg": 0,
       "rating_count": 0,
       "changelog": {
-        "1.0.0": "Initial release"
+        "1.0.0": "Initial release",
+        "1.1": "fixed error"
       }
     }
   ]
